@@ -1,0 +1,13 @@
+.favorite_courses {
+        .favorite{
+            top: 5px;
+            left: -50px;
+            i{
+                font-size: 40px;
+            }           
+            &:hover{
+                transform: none;
+            }
+        }
+        
+}

@@ -1,0 +1,18 @@
+.favorite{
+    cursor: pointer;
+    position: absolute;
+    top: 38px;
+    right: 67px;
+    color:#C4C4C4;
+    opacity: 0.5;
+    i{
+        font-size: 70px;
+    }
+    &_check{
+        opacity: 1;
+        color: rgb(238, 209, 45);
+    }
+    &:hover{
+        transform: rotate(10deg);
+    }
+}

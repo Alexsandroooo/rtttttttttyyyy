@@ -1,0 +1,82 @@
+.filter{
+    width: 280px;
+    background: #00AEEF;
+    box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.75);
+    color:#FFFFFF;
+    padding: 0 20px 0 22px;
+    position: relative;
+    .name{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 10px;
+        border-bottom: 3px dotted #FFFFFF;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 21px;
+    }
+    &__type{
+        label{
+            margin-right: 50px;
+            font-size: 15px;
+        }
+        &__category{
+            display: flex;
+        }
+        h4{
+            margin-left: 5px;
+            font-size: 18px;
+            line-height: 18px;
+            cursor: pointer;
+        }
+        &__items{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 15px;
+        }
+        &__lvl{
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+    }
+    .find{     
+        border: none;
+        background: #0076A3;
+        box-shadow: inset 0px 0px 5px rgba(35, 81, 98, 0.8);
+        color:#FFFFFF;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 30px 0;
+        //position: absolute;
+        //left:50%;
+        //transform:translateX(-50%);
+        //bottom: 10px;
+        width: 230px;
+        height: 40px;
+    }
+    .filter__reset{
+        height: 40px;
+        width: 40px;  
+        border-radius: 50%;
+        background-color: #1c4a72;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        &:hover{
+            background-color: #163e60;
+            color: silver;
+        }
+    }
+}

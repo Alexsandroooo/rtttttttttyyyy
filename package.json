@@ -1,0 +1,49 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "csv-parse": "^5.0.4",
+    "dataframe-js": "^1.4.4",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "pandas-js": "^0.2.4",
+    "webpack-dev-middleware": "^5.3.1",
+    "webpack-hot-middleware": "^2.25.1",
+    "webpack-stream": "^7.0.0"
+  }
+}

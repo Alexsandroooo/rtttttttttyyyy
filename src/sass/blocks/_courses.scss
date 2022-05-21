@@ -1,0 +1,67 @@
+.courses{
+    padding-top: 54px;
+    .blockWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    &__container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    &__item{
+        position: relative;
+        border-top: 6px dotted #CCCCCC;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        padding-left: 5px;
+        padding-top: 7px;
+        width: 602.1px;
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        cursor: pointer;
+        &__name{
+            color:#342F6A;
+            font-size: 25px;
+        }
+        &__author{
+            color: #000000;
+            font-size: 16px;
+            margin-top: 17px;
+        }
+        &__longer{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 300;
+            align-self:flex-end;
+            margin-top: 70px;
+        }
+        :hover{
+            .courses__item__name{
+                color:#1f1c3f;
+                text-decoration: underline;
+            }
+        }
+
+    }
+    .end{
+        margin-left: 20px;
+        border-top: 6px dotted #CCCCCC;
+    }
+    .more{
+        background-color: #C4C4C4;
+        border: none;
+        color: #000000;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        margin: 20px auto;
+        width: 174px;
+        height: 44px;
+        
+        
+    }
+}

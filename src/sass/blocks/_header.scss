@@ -1,0 +1,32 @@
+.headSection {
+    height: 120px;
+    background-color: #333333;
+}
+.header {
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    &__logo{
+        margin-top: 28px;
+        font-size: 46px;
+    }
+    &__sections{
+        margin-top: 40px;
+        font-size: 16px;
+        text-align: center;
+    }
+    &__section{
+        margin-left: 20px;
+        color: #EEEEEE;
+        &:hover{
+            text-decoration: none;
+            color: #3bb5fc;
+        }
+        &_selected {
+            color: #5EC2FD;
+        }
+    }
+
+
+}

@@ -1,0 +1,106 @@
+.course{
+    position: relative;
+    padding-top: 53px;
+    h2, .price{
+        font-size: 34px;
+        line-height: 40px;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    &__name{
+        font-size: 48px;
+        color: #342F6A;
+    }
+    &__descr{
+        font-style: italic;
+        font-size: 34px;
+        line-height: 40px;
+        color: #000;
+        span{
+            font-style: italic;
+            color:#C4C4C4;
+        }
+        
+    }
+    &__about{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            font-size: 26px;          
+            &__theme{
+                color:#C4C4C4;
+            }
+            &__main{
+                margin-top: 10px;
+                color:#000;
+                font-weight:700;
+                text-transform: uppercase;
+            }
+            &__sub{
+                margin-top: 15px;
+                line-height: 30px;
+                color:#000;
+                span{
+                    color:rgb(148, 240, 11);
+                }
+            }
+        }
+    }
+    &__for{
+        margin-top: 38px;
+        &__items{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline; 
+            margin-left: 15px;          
+        }
+        &__item{
+            margin-top: 10px;
+            margin-left: 10px;
+            max-width: 430px;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            font-size: 26px;
+            color:#000;
+            &__main{           
+                font-weight:700;
+                font-size: 20px;
+                line-height: 20px;
+            }
+            &__sub{
+                margin-top: 10px;
+                font-size: 20px;
+                line-height: 25px;
+            }               
+        }
+    }
+    &__plan{
+        display: block;
+        margin: 30px auto;
+        width: 428px;
+        height: 80px;
+        border: none;
+        background: #00AEEF;
+        color:#FFFFFF;
+        font-weight: 400;
+        font-size: 28px;
+        text-align: center;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    &__price{
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-between;
+        .price{
+            font-style: italic;
+            font-weight: 700;
+        };
+    }
+}

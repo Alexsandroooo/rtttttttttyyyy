@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:focus {
+    outline: 0;
+}
+@import 'blocks/header';
+@import 'blocks/star';
+@import 'blocks/courses';
+@import 'blocks/filter';
+@import 'blocks/coursemain';
+@import 'blocks/courseanother';
+@import 'blocks/favorites';
+@import 'blocks/slider';
+@import 'blocks/about';
